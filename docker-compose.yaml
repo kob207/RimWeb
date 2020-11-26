@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  rimweb:
+    container_name: RimWeb
+    build: .
+    ports:
+      - "80:80"
